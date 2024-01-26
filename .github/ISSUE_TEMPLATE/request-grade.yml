@@ -34,7 +34,8 @@ body:
   - type: dropdown
     id: assignment
     attributes:
-      label: Please select the assignment to grade.
+      label: Assignment
+      description: Please select the assignment to grade.
       multiple: false
       options:
         - ArgumentParser
