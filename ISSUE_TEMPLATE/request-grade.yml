@@ -1,0 +1,36 @@
+name: Request Grade
+description: Request or record a grade.
+title: Request Grade: ASSIGNMENT
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue to request a project tests grade.
+
+  - type: input
+    id: full_name
+    attributes:
+      label: Full Name
+      description: Please enter your full name.
+      placeholder: Full Name
+    validations:
+      required: true
+
+  - type: input
+    id: usf_email
+    attributes:
+      label: USF Email
+      description: Please enter your USF email address.
+      placeholder: username@dons.usfca.edu
+    validations:
+      required: true
+
+  - type: input
+    id: assignment
+    attributes:
+      label: Assignment
+      description: Please enter the assignment name here.
+      placeholder: ArgumentParser
+    validations:
+      required: true
