@@ -6,6 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
+        :warning: If you already have an issue created for this assignment, please re-open that issue rather than create a new one!
+
+  - type: markdown
+    attributes:
+      value: |
         Use this issue to *manually* request a project tests grade.
 
   - type: input
@@ -23,15 +28,6 @@ body:
       label: USF Email
       description: Please enter your USF email address.
       placeholder: username@dons.usfca.edu
-    validations:
-      required: true
-
-  - type: input
-    id: assignment
-    attributes:
-      label: Assignment
-      description: 
-      placeholder: ArgumentParser
     validations:
       required: true
 
@@ -77,12 +73,17 @@ body:
         - Project v5.0 Tests
         - Project v5.1 Tests
 
+  - type: input
+    id: action_url
+    attributes:
+      label: Github Action Run
+      description: Please enter the URL to the GitHub Action run that shows you are passing this assignment.
+      placeholder: https://github.com/usf-cs272-spring2024/[REPO]/actions/runs/[RUNID]
+    validations:
+      required: false
+
   - type: markdown
     attributes:
       value: |
         After opening this issue, reach out on Piazza to have the instructor review your request.
 
-  - type: markdown
-    attributes:
-      value: |
-        :warning: If you already have an issue created for this assignment, please re-open that issue rather than create a new one!
