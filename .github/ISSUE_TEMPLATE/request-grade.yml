@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this issue to request a project tests grade.
+        Use this issue to *manually* request a project tests grade.
 
   - type: input
     id: full_name
@@ -34,3 +34,13 @@ body:
       placeholder: ArgumentParser
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        After opening this issue, reach out on Piazza to have the instructor review your request.
+
+  - type: markdown
+    attributes:
+      value: |
+        :warning: If you already have an issue created for this assignment, please re-open that issue rather than create a new one!
