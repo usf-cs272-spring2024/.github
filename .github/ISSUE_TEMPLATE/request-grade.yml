@@ -30,10 +30,52 @@ body:
     id: assignment
     attributes:
       label: Assignment
-      description: Please enter the assignment name here.
+      description: 
       placeholder: ArgumentParser
     validations:
       required: true
+
+  - type: dropdown
+    id: assignment
+    attributes:
+      label: Please select the assignment to grade.
+      multiple: false
+      options:
+        - ArgumentParser
+        - FileStemmer
+        - JsonWriter
+        - FileIndex
+        - FileSorter
+        - FileFinder
+        - LoggerSetup
+        - MultiReaderLock
+        - PrimeFinder
+        - HtmlFetcher
+        - HtmlCleaner
+        - LinkFinder
+        - Bundle 1 Review
+        - Bundle 3 Review
+        - Bundle 4 Review
+        - Project v1.0 Tests
+        - Project v1.1 Tests
+        - Project v1.2 Review
+        - Project v1.3 Review
+        - Project v1.4 Design
+        - Project v2.0 Tests
+        - Project v2.1 Tests
+        - Project v2.2 Review
+        - Project v2.3 Review
+        - Project v2.4 Design
+        - Project v3.0 Tests
+        - Project v3.1 Tests
+        - Project v3.2 Review
+        - Project v3.3 Review
+        - Project v3.4 Design
+        - Project v4.0 Tests
+        - Project v4.1 Tests
+        - Project v4.2 Design
+        - Project v5.0 Tests
+        - Project v5.1 Tests
 
   - type: markdown
     attributes:
