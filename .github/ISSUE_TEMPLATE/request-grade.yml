@@ -1,6 +1,6 @@
-name: Request Grade
-description: Request or record a grade.
-title: Request Grade: ASSIGNMENT
+name: "Request Grade"
+description: "Request or record a grade."
+title: "Request Grade: ASSIGNMENT"
 
 body:
   - type: markdown
