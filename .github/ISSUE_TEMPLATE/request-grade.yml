@@ -72,6 +72,8 @@ body:
         - Project v4.2 Design
         - Project v5.0 Tests
         - Project v5.1 Tests
+    validations:
+      required: true
 
   - type: input
     id: action_url
